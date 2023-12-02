@@ -1,0 +1,16 @@
+.header{
+    position: sticky;
+    top: 0;
+    background-color: transparent;
+    height: 80px;
+    z-index: 10;
+}
+.img{
+    background: url('./images/theyyam1.webp');
+    height: 80vh;
+    width: 100%;
+    z-index: 1;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
