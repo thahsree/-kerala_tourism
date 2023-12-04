@@ -1,3 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:wght@100;300;400;500;600&family=Roboto:wght@100&family=Young+Serif&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    overflow-x: hidden;
+}
 .header{
     position: sticky;
     top: 0;
@@ -13,4 +22,234 @@
     background-size: cover;
     background-attachment: fixed;
 
+}
+.header_1{
+    display: flex;
+    flex-direction: column;
+}
+.header_contact ,.header_social{
+    display: flex;
+    align-items: flex-end;
+}
+.header_contact p, .header_social p{ 
+    margin-left: 1rem;
+    font-size: small;
+    color: whitesmoke;
+
+}
+.header_content_1{
+    background-color: rgb(0, 2, 2);
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly ;
+}
+.header_social{
+   margin-right: 2rem;
+}
+.header_social p{
+    cursor: pointer;
+}
+.logo{
+    width: 13vh;
+}
+.logo img{
+    width: 100%;
+    height: auto;
+}
+.header_content_2{
+    border-bottom: 1px solid #333;
+}
+.bold{
+    font-size: medium;
+    font-weight: 500;
+    margin: .3rem;
+}
+.corousal{
+    width: 100%;
+    height: 77vh;
+}
+
+.item1{
+    width: 100%;
+    height: 100%;
+    background: url('./images/Beach.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    transform: scale(1);
+    transition: 5s ease-in-out;
+
+    animation-name: zoom;
+    animation-duration: 15s;
+    animation-iteration-count: 1; /* Optionally, repeat the animation */
+}
+.item2{
+    width: 100%;
+    height: 100%;
+    background: url('./images/Boating.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    transform: scale(1);
+    transition: 5s ease-in-out;
+
+    animation-name: zoom;
+    animation-duration: 15s;
+    animation-iteration-count: 1; /* Optionally, repeat the animation */
+}
+.item3{
+    width: 100%;
+    height: 100%;
+    background: url('./images/Wayanad.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    transform: scale(1);
+    transition: 5s ease-in-out;
+
+    animation-name: zoom;
+    animation-duration: 15s;
+    animation-iteration-count: 1; /* Optionally, repeat the animation */
+}
+.item4{
+    width: 100%;
+    height: 100%;
+    background: url('./images/Munnar.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    transform: scale(1);
+    transition: 5s ease-in-out;
+
+    animation-name: zoom;
+    animation-duration: 15s;
+    animation-iteration-count: 1; /* Optionally, repeat the animation */
+}
+.item5 {
+    width: 100%;
+    height: 100%;
+    background-image: url('./images/WaterFalls.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    transform: scale(1);
+
+    animation-name: zoom;
+    animation-duration: 25s; 
+    animation-timing-function: linear;
+    animation-iteration-count: 1; /* Optionally, repeat the animation */
+}
+.notification-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    width: 100%;
+    background-color: red;
+    color: whitesmoke;
+    font-weight: bold;
+}
+.notification{
+    display: flex;
+    padding: 1rem;
+    font-size: 2rem;
+    overflow-x: hidden !important;
+    transform: translateX(1500px);
+
+    animation-name: slide;
+    animation-duration: 25s;
+    animation-delay: 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+@keyframes slide {
+    from{
+        transform: translateX(1500px);
+    }
+    to{
+        transform: translateX(-1000px);
+    }
+}
+@keyframes zoom {
+    from {
+        transform: scale(1.20);
+    }
+    to {
+        transform: scale(1);
+    }
+}
+.caption{
+
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    height: 100%;
+}
+.caption-content{
+    display: flex;
+
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.caption-content button{
+    width: 30%;
+    padding: .5rem;
+    border: 1px solid #333;
+    cursor: pointer;
+    background-color: transparent;
+    color: rgb(111, 7, 7);
+    border-radius: 20px;
+    transition: .3s ease-in-out;
+}
+.caption-content button:hover{
+   background-color: #33333385;
+}
+.try{
+    height: 100px;
+    width: 100%;
+    background-color: aqua;
+}
+.header2_content{
+    display: flex;
+    justify-content: space-around
+}
+.navigations nav{
+    font-family: Pacifico;
+    display: flex;
+    height: 100%;
+    justify-content: space-evenly;
+    list-style-type: none;
+    gap: 1rem;
+    align-items: center;
+}
+.navigations li{
+    cursor: pointer;
+    margin: 1rem;
+
+    transition: 1s ease-in-out;
+
+    
+
+}
+.navigations nav li:hover{
+    transform: scale(1.06);
+    border-bottom: 3px solid #333;
+}
+.header2{
+    background-color: rgba(214, 204, 204, 0.759);
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    box-shadow: 0px 0px 5px rgb(103, 35, 35);
+}
+.destination{
+    height: 190vh;
+    width: 100%;
 }
