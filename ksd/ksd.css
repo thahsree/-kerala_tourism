@@ -60,7 +60,7 @@ main{
     filter: brightness(80%);
 }
 .destination_2{
-    background-image: url('');
+    background-image: url('./images/m_Ranipuram_Hills_1_l_480_640.jpg');
 }
 .destination{
     height: 90vh;

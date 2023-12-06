@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Pacifico&family=Poppins:wght@100;300;400;500;600&family=Roboto:wght@100&family=Shizuru&family=Young+Serif&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main{
+    font-family: roboto;
+    font-weight: 700;
+}
+.district{
+    background-image: url('./images/Wayanad_2.jpg');
+    height: 90vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.district h1{
+    background-color: aliceblue;
+    width: 100%;
+    padding: 2.4rem;
+    text-align: center;
+    font-family: Bebas Neue;
+}
+.title h3{
+    font-family: Bebas Neue;
+    font-size: 5rem !important;
+    color: rgba(240, 248, 255, 0.756);
+}
+.district_description ,.destination_description{
+
+    height: auto;
+    padding-left: 10rem;
+    padding-right: 10rem;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    width: 100%;
+    overflow: none;
+}
+.district_description h4{
+    text-align: center;
+    margin-top: 5rem;
+    text-decoration: underline;
+    font-family: monospace;
+}
+.title{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    color: aliceblue;
+}
+.destination_1{
+    background-image: url('./images/900\ kandi.jpg');
+    filter: brightness(80%);
+}
+.destination_2{
+    background-image: url('./images/Banasura\ dam.jpg');
+}
+.destination_3{
+    background-image: url('./images/chembra\ peak\ wayanad.jpg');
+}
+.destination_4{
+    background-image: url('./images/Lakkidi\ viewpoint.jpg');
+}
+.destination{
+    height: 90vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+
+.firstLetter{
+    font-size: 3rem;
+    float: left;
+    margin-right: .5rem;
+    color: chocolate;
+}
+
+.destination_description{
+    height: auto;
+    padding-left: 10rem;
+    padding-right: 10rem;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    width: 100%;
+    overflow: none;
+}

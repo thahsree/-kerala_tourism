@@ -177,6 +177,15 @@ body{
     color: whitesmoke;
     font-weight: bold;
 }
+.notification p{
+    margin-left: 2rem;
+}
+.mal{
+    display: flex;
+    height: 100%;
+    align-items: center;
+    font-size: 1.7rem;
+}
 .notification{
     display: flex;
     padding: 1rem;
