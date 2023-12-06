@@ -60,7 +60,11 @@ main{
     filter: brightness(80%);
 }
 .destination_2{
-    background-image: url('');
+    background-image: url('./images/Payyambalam.jpg');
+}
+
+.destination_4{
+    background-image: url('./images/Kappimla.jpg');
 }
 .destination{
     height: 90vh;
@@ -69,6 +73,10 @@ main{
     background-position: center;
     background-attachment: fixed;
     background-size: cover;
+}
+.destination_3{
+    background-image: url('./images/ezharakkund.jpg');
+    background-attachment: local;
 }
 
 
