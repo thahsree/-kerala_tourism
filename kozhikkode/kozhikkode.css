@@ -60,7 +60,16 @@ main{
     filter: brightness(80%);
 }
 .destination_2{
-    background-image: url('./images/m_Ranipuram_Hills_1_l_480_640.jpg');
+    background-image: url('./images/vellarimala.jpg');
+}
+.destination_3{
+    background-image: url('./images/vayalada.jpg');
+}
+.destination_4{
+    background-image: url('./images/kappad.jpg');
+}
+.destination_4 h3{
+    color: rgba(0, 0, 0, 0.378);
 }
 .destination{
     height: 90vh;
