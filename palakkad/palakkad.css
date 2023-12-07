@@ -65,6 +65,9 @@ main{
 .destination_3{
     background-image: url('./images/kollengod.jpg');
 }
+.destination_4{
+    background-image: url('./images/malampuzha.jpg');
+}
 .destination{
     height: 90vh;
     width: 100%;
