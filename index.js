@@ -17,17 +17,7 @@ let slide4 = document.getElementById('slide4');
 let slide5 = document.getElementById('slide5');
 let slide6 = document.getElementById('slide6');
 
-var change = document.getElementById('change');
-var button = document.getElementById('ham_button')
-button.addEventListener('click',()=>{
-    if(button.className == 'menu-button'){
-        button.className = 'close-button';
-        document.getElementById("nav").style.display = "flex";
-    }else{
-        button.className = 'menu-button';
-        document.getElementById("nav").style.display = "none";
-    }
-})
+
 
 let images = [item1, item2, item3, item4, item5, item6];
 let slides = [slide1, slide2, slide3, slide4, slide5, slide6];
@@ -189,4 +179,3 @@ function validate_form(){
       return true;
   }
 }
-
