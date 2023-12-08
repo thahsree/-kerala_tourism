@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SignUp</title>
+    <link rel="stylesheet" href="./signup.css">
+    <script src="https://kit.fontawesome.com/990f8591db.js" crossorigin="anonymous"></script>
+</head>
+<body>
+        <div class="uDiv"> 
+            <div class="dataDiv">
+                <div class="headerDiv">
+                    <img src="./images/kerala-gods-own-country.gif"  style="width: auto; height: 100px;">
+                
+                <button><i id="fb" class="fa-brands fa-square-facebook"></i>  Log in with Facebook</button>
+                <div>
+                    <span id="orSpan">or </span>
+                </div>
+                <div class="formDiv">
+                    <form action="./done.html" onsubmit="return validate_form()">
+                        <div class="input_body">
+                            <div class="input">
+                                <input type="text" id="email" placeholder="email" onkeyup="email_fun()" autocomplete="off">
+                                <i id="tick" class="fa-solid fa-check"></i>
+                                <i id="wrong" class="fa-regular fa-circle-xmark"></i>
+                            </div>
+                            <div class="input" >
+                                <input type="text" id="full_name" placeholder="fullname" onkeyup="name_fun()" autocomplete="off">
+                                <i id="name_tick" class="fa-solid fa-check"></i>
+                                <i id="name_wrong" class="fa-regular fa-circle-xmark"></i>
+                            </div>
+                            <div class="input">
+                                <input type="text" id="user_name" placeholder="username" onkeyup="user_fun()" autocomplete="off">
+                                <i id="user_tick" class="fa-solid fa-check"></i>
+                                <i id="user_wrong" class="fa-regular fa-circle-xmark"></i>
+                            </div>
+                            <div class="input" autocomplete="off">
+                                <input type="text" id="password" placeholder="password" onkeyup="pass_fun()" >
+                                <i id="pass_tick" class="fa-solid fa-check"></i>
+                                <i id="pass_wrong" class="fa-regular fa-circle-xmark"></i>
+                            </div>
+                            <div class="input" autocomplete="off">
+                                <input type="text" id="confirm_password" placeholder="confirm-password" onkeyup="confirm_pass()">
+                                <i id="confirm_tick" class="fa-solid fa-check"></i>
+                                <i id="confirm_wrong" class="fa-regular fa-circle-xmark"></i>
+                            </div>
+                        </div>
+                        <p id="pFoot">People who use our service may have uploaded <br> your contact information to Instagram.  <span id="link"> Learn <br> More</span> <br>
+
+                            By signing up, you agree to our Terms ,<span id="link">Privacy <br>Policy</span> and <span id="link">Cookies Policy </span></p>
+                        <button  id="Signup">Signup</button>
+                    </form>
+                </div>
+            </div> 
+            </div>
+        </div>
+        <script src="./index.js"></script>
+</body>
+</html>
