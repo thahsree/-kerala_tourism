@@ -350,3 +350,14 @@ body{
     display: flex;
     justify-content: space-evenly;
 }
+.district a:visited, .district a{
+    color: #000;
+    text-decoration: none;
+    font-family: roboto;
+}
+.district a:hover{
+    color: red;
+}
+.district-content{
+    font-family: monospace;
+}
