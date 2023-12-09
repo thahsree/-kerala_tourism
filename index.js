@@ -1,8 +1,13 @@
 let more = document.getElementById('more-btn');
-morePlace =document.getElementById('morePlace-btn');
+let morePlace =document.getElementById('morePlace-btn');
+
+let ham_Btn = document.getElementById('ham-btn');
+let list = document.getElementById('list')
+
 let place_container2 = document.getElementById('place-container2');
 let beach_container2 = document.getElementById('beach-container2');
 let place_container1 = document.getElementById('place-container1');
+
 let item1 = document.getElementById('item1');
 let item2 = document.getElementById('item2');
 let item3 = document.getElementById('item3');
@@ -38,11 +43,22 @@ function switchActive() {
 
 window.addEventListener('load', () => {
   switchActive(); // Initial setup
-
+  ham_Btn.className = 'close-button';
+  list.style.display = "flex";
   setInterval(() => {
     switchActive();
   }, 6000);
 });
+
+ham_Btn.addEventListener('click',()=>{
+  if(ham_Btn.className == 'menu-button'){
+      ham_Btn.className = 'close-button';
+      list.style.display = "flex";
+  }else{
+      ham_Btn.className = 'menu-button';
+      list.style.display = "none";
+  }
+})
 
 more.addEventListener('click',()=>{
    if(place_container2.style.display==="none"){
